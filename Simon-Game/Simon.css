@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+p{
+    font-size: 80px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+.box{
+    border: 8px solid black;
+    display: inline-block;
+    height: 280px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 50px;
+}
+button{
+    position: absolute;
+    bottom: 150px;
+    left: 980px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: rgb(79, 232, 207);
+    font-size: 40px;
+    transition: 0.1s ease-in-out 0s;
+}
+button:hover{
+    scale: 1.1;
+}
